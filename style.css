@@ -1,0 +1,177 @@
+*{
+font-family: 'Poppins', sans-serif;
+margin: 0px;
+}
+
+header{
+	padding: 20px 0 20px 20px;
+	background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+
+	}
+
+
+img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+}
+
+#logo{
+	/*font-size: 50px;*/
+	width: 70px;
+	height: 70px;
+	/*background: red;*/
+	/*text-align: center;*/
+	border-radius: 50px;
+	line-height: 100px;
+	webkit-border-radius: 50px;
+    moz-border-radius: 50px;
+    float: left;
+}
+
+a{
+	text-decoration: none;
+	/*border: 2px solid red;*/	
+ }
+
+ .navlink{
+ 	border: 3px solid red;
+ 	padding: 4px 20px 4px 20px;
+ 	border-radius: 10px;
+ }
+
+ .navlink:hover{
+ 	border: 3px solid black;
+ 	padding: 4px 20px 4px 20px;
+ 	color: blue;
+ 	background-color: #B2B2FF;
+ 	border-radius: 10px;
+ 	box-shadow: 3px 3px #888888;
+ }
+
+
+
+ul {
+ 	list-style: none;
+ }
+
+ nav ul{
+ 	float: left;
+ 	padding: 0 0 0 100px;
+ }
+
+ nav ul li{
+ 	float: left;
+ 	padding: 20px;
+ 	padding-left: 50px;
+ 	padding-right: 50px;
+ }
+
+#main{
+	background: #ebebeb;
+	padding: 50px 0px 0px 50px;
+	padding-bottom: 100px;
+
+}
+
+.clearfix{
+ clear: both;
+}
+
+
+.article-links-img{
+
+}
+.article-links-img:hover{
+	
+	border: 1px solid blue;
+	border-radius: 5px;
+	padding: 2px 2px 2px 2px;
+	margin: 25px 0px 0px 32px;
+	background-color: #C9A0DC;
+	box-shadow: 10px 10px lightblue;
+}
+
+
+
+.article-links-title{
+
+}
+.article-links-title:hover{
+	color: purple;
+	border: 2px solid blue;
+	border-radius: 10px;
+	padding: 2px 5px 2px 2px;
+	background-color: lightblue;
+	box-shadow: 5px 5px lightskyblue;
+}
+
+
+
+
+
+
+.article-links-img{
+	height: 300px;
+	width: 200px;
+	border-radius: 0px;
+	padding: 30px 30px 30px 30px;
+}
+
+#main .article{
+	width: 920px;	
+	float: left;
+	background: white;
+	padding-left: 70px;
+	padding-bottom: 100px;
+}
+
+#main .sidebar{
+	float: right;
+	min-height: 500px;
+	background: white;
+	width: 360px;
+	margin-right: 50px;
+}
+
+
+#main .article .content{
+	width: 455px;
+	margin-right: 100px;
+	padding: 30px 30px 30px 50px;
+	float: right;
+
+}
+
+#main .article .bottom >div {
+	float: left;
+	padding: 0 20px 0 20px;
+}
+
+
+#main .article .bottom {
+	color: #36454F;
+	padding: 20px 0px;
+	float: left;
+	width: 90%;
+	border: 2px solid gray;
+	background: lightgray;
+
+
+}
+
+#main .article .bottom .comment {
+
+	float: right;
+	padding-left: 100px;
+
+}
+
+
+
+h2{
+	margin-bottom: 5px;
+	font-size: 45px;
+}
+
+
