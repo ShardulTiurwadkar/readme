@@ -53,6 +53,8 @@ a{
 
 ul {
  	list-style: none;
+ 	padding: 0px;
+ 	margin: 0px;
  }
 
  nav ul{
@@ -67,7 +69,7 @@ ul {
  	padding-right: 50px;
  }
 
-#main{
+#main,{
 	background: #ebebeb;
 	padding: 50px 0px 0px 50px;
 	padding-bottom: 100px;
@@ -132,7 +134,22 @@ ul {
 	background: white;
 	width: 360px;
 	margin-right: 50px;
+	padding: 20px;
 }
+
+/*#main .sidebar input{
+	padding: 10px;
+	margin-left: 20px;
+}
+
+
+
+
+#main .sidebar input[type="submit"]{
+	margin-left: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}*/
 
 
 #main .article .content{
@@ -174,4 +191,64 @@ h2{
 	font-size: 45px;
 }
 
+section{
+	padding: 10px;
+	margin: 20px;
+}
+section ul li{
+	padding-top: 10px;
+}
+
+#main .sidebar a{
+	text-decoration: underline;
+	color:#158ebf;
+}
+
+#main .sidebar a:hover{
+	text-decoration: underline;
+	color: purple;
+}
+
+#myreccomendations{
+	padding: 30px;
+	margin: 20px;
+	border: 5px solid blue;
+	border-radius: 10px;
+	background: linear-gradient(110deg, #00008B 60%, #9F79EE 60%);
+	color: white;
+	font-family: courier,arial,helvetica;;
+}
+
+
+#rec-info{
+	margin-top: 20px;
+	margin-bottom: 40px;
+
+}
+
+#rec-button{
+	text-align: center;
+    vertical-align: middle;
+	border: 2px solid orange;
+	background-color: yellow;
+	padding: 5px;	
+	border-radius: 15px;
+	
+}
+#rec-button:hover{
+	text-align: center;
+    vertical-align: middle;
+	border: 2px solid red;
+	background-color: orange;
+	padding: 5px;	
+	border-radius: 15px;
+	
+}
+
+footer{
+	text-align: center;
+    vertical-align: middle;
+    margin: 20px;
+    background: linear-gradient(110deg, #FFD700 60%, #FF8C00 60%);
+}
 
