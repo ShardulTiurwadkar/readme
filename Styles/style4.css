@@ -1,0 +1,67 @@
+
+*{
+	font-family: sans-serif;
+}
+
+.wrapper{
+	border: solid 2px black;
+	width: 530px;
+	margin: 55px auto;
+	padding-bottom: 55px;
+	background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+
+}
+
+h1{
+	text-align: center;
+}
+
+input, select{
+	width: 250px;
+	height: 40px;
+	font-size: 15px;
+	padding-left: 5px;
+	margin: 5px;
+	box-sizing: border-box;
+}
+
+label{
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	padding-left: 30px;
+}
+
+label[for="languages"]
+{
+	vertical-align: middle;
+	line-height: 50px;
+}
+
+/*label[for="education"]
+{
+	padding-left: 200px;
+	font-size: 15px;
+	width: 10px;
+}
+input[type="radio"]
+{
+	font-size: 25px;
+	width: 20px;
+}*/
+
+
+.button{
+	background-color: #82a43a;
+	border: 3px solid black;
+	border-radius: 12px;
+}
+
+#languages{
+	height: 100px;
+	vertical-align: middle;
+
+}
+
+

@@ -1,0 +1,150 @@
+	*{
+font-family: 'Poppins', sans-serif;
+margin: 0px;
+}
+
+header{
+	padding: 20px 0 20px 20px;
+	background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+
+	}
+
+
+img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+}
+
+#logo{
+	/*font-size: 50px;*/
+	width: 70px;
+	height: 70px;
+	/*background: red;*/
+	/*text-align: center;*/
+	border-radius: 50px;
+	line-height: 100px;
+	webkit-border-radius: 50px;
+    moz-border-radius: 50px;
+    float: left;
+}
+
+a{
+	text-decoration: none;
+	/*border: 2px solid red;*/	
+ }
+
+ .navlink{
+ 	border: 3px solid red;
+ 	padding: 4px 20px 4px 20px;
+ 	border-radius: 10px;
+ }
+
+ .navlink:hover{
+ 	border: 3px solid black;
+ 	padding: 4px 20px 4px 20px;
+ 	color: blue;
+ 	background-color: #B2B2FF;
+ 	border-radius: 10px;
+ 	box-shadow: 3px 3px #888888;
+ }
+
+.clearfix{
+ clear: both;
+}
+
+ul {
+ 	list-style: none;
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+
+ nav ul{
+ 	float: left;
+ 	padding: 0 0 0 100px;
+ }
+
+ nav ul li{
+ 	float: left;
+ 	padding: 20px;
+ 	padding-left: 50px;
+ 	padding-right: 50px;
+ }
+
+
+
+ h2{
+	margin-bottom: 5px;
+	font-size: 45px;
+}
+
+section{
+	padding: 10px;
+	margin: 20px;
+}
+section ul li{
+	padding-top: 10px;
+}
+
+
+#main .sidebar{
+	float: right;
+	min-height: 500px;
+	background: white;
+	width: 360px;
+	margin-right: 50px;
+	padding: 20px;
+}
+
+
+#main .sidebar a{
+	text-decoration: underline;
+	color:#158ebf;
+}
+
+#main .sidebar a:hover{
+	text-decoration: underline;
+	color: purple;
+}
+
+#myreccomendations{
+	padding: 30px;
+	margin: 20px;
+	border: 5px solid blue;
+	border-radius: 10px;
+	background: linear-gradient(110deg, #00008B 60%, #9F79EE 60%);
+	color: white;
+	font-family: courier,arial,helvetica;;
+}
+
+
+#rec-info{
+	margin-top: 20px;
+	margin-bottom: 40px;
+
+}
+
+#rec-button{
+	text-align: center;
+    vertical-align: middle;
+	border: 2px solid orange;
+	background-color: yellow;
+	padding: 5px;	
+	border-radius: 15px;
+	
+}
+#rec-button:hover{
+	text-align: center;
+    vertical-align: middle;
+	border: 2px solid red;
+	background-color: orange;
+	padding: 5px;	
+	border-radius: 15px;
+	
+}
+footer{
+	text-align: center;
+    vertical-align: middle;
+    margin: 20px;
+    background: linear-gradient(110deg, #FFD700 60%, #FF8C00 60%);
+}	

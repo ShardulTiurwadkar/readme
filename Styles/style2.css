@@ -1,0 +1,45 @@
+
+
+.blogimg{
+	width: 800px;
+	height: 400px;
+	margin-left: 70px;
+	margin-top: 10px;
+	border-radius: 0px;
+}
+
+#main #article{
+	width: 920px;	
+	float: left;
+	background: white;
+	padding-left: 70px;
+	padding-bottom: 100px;
+}
+
+.clearfix{
+ clear: both;
+}
+
+.mainarticlediv{
+	margin-top: 50px;
+}
+
+.blogimgdiv{
+	width: auto;
+	height: 400px;
+}
+.para{
+	margin-top: 50px;
+}
+
+#main h2{
+	color: purple;
+	font-size: 40px;
+	margin-left: 20px;
+}
+
+
+.para p{
+	font-family: sans-serif;
+	margin: 20px;
+}

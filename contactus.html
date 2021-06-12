@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ReadMe</title>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,200;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="Styles/commonstyle.css">
+<link rel="stylesheet" type="text/css" href="Styles/style4.css">
+
+</head>
+
+
+
+<body>
+	<div id="wrapper">
+
+		<header>
+			<div id="content">
+				<a href="index.html">
+					<div id="logo"><img src="Images/logo.png"></div>
+				</a>
+				<nav>
+					<ul>
+						<li>
+							<a class="navlink" href="index.html">Home</a>
+						</li>
+						<li>
+							<a class="navlink" href="blog.html">Blog</a>
+						</li>
+						<li>
+							<a class="navlink" href="newarrivals.html">New Arrivals</a>
+						</li>
+						<li>
+							<a class="navlink" href="fauthors.html">Featured Authors</a>
+						</li>
+						<li>
+							<a class="navlink" href="contactus.html">Contact Us</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="clearfix"></div>
+			</div>
+		</header>
+ 
+	<div class="wrapper">
+		<h1>Enter your Information</h1>
+		<form method="post" action="#">
+
+			<div class="input-row">
+			<label for="full-name">Full Name:</label>
+				<input type="text" id="full-name" name="full-name" value="" placeholder="Enter your Full Name" onfocus="this.placeholder=''" required>
+			</input>
+			</div>
+
+			<div class="input-row">
+			<label for="email">Email:</label>
+				<input type="email" id="email" name="email" value="" placeholder="Enter your Email" onfocus="this.placeholder=''" required>
+			</input>
+			</div>
+
+			<div class="input-row">
+			<label for="age">Age:</label>
+				<input type="number" id="age" name="age" value="" placeholder="Enter your Age" onfocus="this.placeholder=''" min="18" max="60" required>
+			</input>
+			</div>
+
+			<div class="input-row">
+			<label for="city">City:</label>
+				<select id="city" name="city" >
+					<option value="">Select Your City</option>
+					<optgroup label="INDIA">
+						<option value="Pune">Pune</option>
+						<option value="Mumbai">Mumbai</option>
+						<option value="Kolhapur">Kolhapur</option>
+						<option value="Delhi">Delhi</option>
+						<option value="Banglore">Banglore</option>
+						<option value="Kolkate">Kolkate</option>
+						<option value="Chennai">Chennai</option>
+						<option value="Noida">Noida</option>
+					</optgroup>
+
+					<optgroup label="United States">
+						<option value="NewYork">New York</option>
+						<option value="LosAngeles">Los Angeles</option>
+						<option value="Chicago">Chicago</option>
+						<option value="SanDiegp">San Diego</option>
+						<option value="Houston">Houston</option>
+						<option value="SanJose">San Jose</option>
+					</optgroup>
+
+					<optgroup label="JAPAN">
+						<option value="Tokyo">Tokyo</option>
+						<option value="Osaka">Osaka</option>
+						<option value="Kobe">Kobe</option>
+						<option value="Yokohama">Yokohama</option>
+						<option value="Hakone">Hakone</option>
+					</optgroup>
+				</select>
+			</input>
+			</div>
+
+			<div class="input-row">
+			<label for="your-fav-book">Your Favorite Book:</label>
+				<input type="text" id="full-name" name="full-name" value="" placeholder="Enter your Favorite book" onfocus="this.placeholder=''" required>
+			</input>
+			</div>
+
+			<!-- <div class="input-row">
+			<label for="languages">Languages known:</label>
+				<select id="languages" name="languages" multiple="languages" >
+						<option value="English">English</option>
+						<option value="Hindi">Hindi</option>
+						<option value="Japanese">Japanese</option>
+						<option value="German">German</option>
+						<option value="French">French</option>
+						<option value="Chinese">Chinese</option>
+				</select>
+			</div> -->
+
+<!-- 			<div class="input-row">
+				<label>Your Highest Education</label>
+				<div>
+					<input type="radio" id="undergraduate" name="education" value="UnderGraduate">
+					<label for="undergraduate">UnderGraduate</label>
+				</div>
+				<div>
+					<input type="radio" id="graduate" name="education" value="Graduate">
+					<label for="graduate">Graduate</label>
+				</div>
+				<div>
+					<input type="radio" id="postgraduate" name="education" value="PostGraduate">
+					<label for="undergraduate">PostGraduate</label>
+				</div>
+			</div> -->
+
+			<div >
+				<br><br>
+				<input type="submit" class="button" name="" >
+				<input type="reset" class="button" name="" >
+			</div>
+
+		</form>
+	</div>
+<footer>
+			<div class="copyright">&copy; ReadMe.com</div>
+			<div class="contact">
+				<a href="mailto:techfosha@gmail.com">support@bookme.com</a>
+			</div>
+			
+		</footer>
+
+	
+
+	</div>
+
+</body>
+</html>
